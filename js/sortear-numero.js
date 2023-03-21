@@ -12,5 +12,3 @@ spanMaiorValor.innerHTML = maiorValor;
 function geraNumeroAleatório() {
     return parseInt(Math.random() * ((maiorValor + 1) - menorValor) + menorValor);
 }
-
-console.log(numeroSecreto);
